@@ -1,0 +1,1 @@
+cmd: export FILENAME={FILE_ACTIVE_NAME_BASE} ; as $FILENAME.s -o $FILENAME.o && ld -macosx_version_min 10.7.0 $FILENAME.o -e _main -o $FILENAME && ./$FILENAME
